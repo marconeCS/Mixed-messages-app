@@ -6,4 +6,3 @@ const randomize = arr => {
   let arrIndex = Math.floor(Math.random() * arr.length);
     return arr[arrIndex];
 }
-console.log(randomize(subject))
